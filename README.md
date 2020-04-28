@@ -26,4 +26,13 @@ start - Start test server
 
 - **`should be able to import transactions`**: For this test to pass, your application must allow a csv file to be imported (model below). With the imported file, you must allow all records and categories that were present in that file to be created in the database, and return all transactions that were imported.
 
+### CSV Model
+
+```
+title, type, value, category
+Title1, income, 1500, Others
+Title2, outcome, 50, Others
+Title3, outcome, 3, Food
+```
+
 **Important**: To run the test you must create a database named __"gostack_desafio06_tests"__.
