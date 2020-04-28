@@ -36,3 +36,5 @@ Title3, outcome, 3, Food
 ```
 
 **Important**: To run the test you must create a database named __"gostack_desafio06_tests"__.
+
+### Project developed for Bootcamp GoStack11 🚀
