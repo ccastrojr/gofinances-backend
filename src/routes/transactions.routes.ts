@@ -53,7 +53,7 @@ transactionsRouter.delete('/:id', async (req, res) => {
 
   const { id } = req.params;
   await deleteService.execute(id);
-  return res.json('Succesfully deleted.');
+  return res.status(204);
 });
 
 transactionsRouter.post('/import', upload.single('file'), async (req, res) => {
