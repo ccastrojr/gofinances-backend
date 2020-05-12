@@ -22,9 +22,10 @@ transactionsRouter.get('/', async (req, res) => {
       'title',
       'type',
       'value',
-      'category',
+      'category_id',
       'created_at',
       'updated_at',
+      'category',
     ],
     relations: ['category'],
   });
