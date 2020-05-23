@@ -1,4 +1,4 @@
-# Transaction APP Backend
+# GoFinances Backend
 
 ## Availiable Scripts
 
